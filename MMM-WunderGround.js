@@ -5,7 +5,7 @@
  * By RedNax
  * MIT Licensed.
  */
-Module.register("MMM-WunderGround", {
+Module.register("mmm-wunderground", {
 
     // Default module config.
     defaults: {
@@ -138,7 +138,7 @@ Module.register("MMM-WunderGround", {
     // Define required scripts.
     getStyles: function () {
         return ["weather-icons.css", "weather-icons-wind.css",
-            "MMM-WunderGround.css"
+            "mmm-wunderground.css"
         ];
     },
 
